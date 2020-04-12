@@ -7,7 +7,7 @@ package zenvia;
 public class Caixa {
     int nota100, nota50, nota20, nota10, restante;
 
-    public int[] sacar(int valor){
+    public int[] sacar(int valor) {
         nota100 = valor / 100;
         restante = valor % 100; //guardo resto da divisao inteira para calcular notas de 50
         
